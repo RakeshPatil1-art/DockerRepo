@@ -11,6 +11,7 @@ public class DockerAppIntegrationWithJenkinsNDockerApplication {
 
 	@GetMapping("/wishMsg")
 	public String getMsg() {
+		System.out.println("Welcome to India");
 		return "Welcome To Docker App";
 	}
 
@@ -18,4 +19,4 @@ public class DockerAppIntegrationWithJenkinsNDockerApplication {
 		SpringApplication.run(DockerAppIntegrationWithJenkinsNDockerApplication.class, args);
 	}
 
-}
+} 
